@@ -90,5 +90,14 @@
 	        <url>http://3.90.243.96:8081/repository/maven-releases/</url>
 	    </repository>
 	</repositories>
-
+	    <pluginRepositories>
+        <pluginRepository>
+            <id>nexus-releases</id>
+            <url>http://3.90.243.96:8081/repository/maven-releases/</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>nexus-snapshots</id>
+            <url>http://3.90.243.96:8081/repository/maven-snapshots/</url>
+        </pluginRepository>
+    </pluginRepositories>
 </project>

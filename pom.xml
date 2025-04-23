@@ -79,4 +79,16 @@
 	        <url>http://3.90.243.96:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	</distributionManagement>
+
+	<repositories>
+	    <repository>
+	        <id>nexus-snapshots</id>
+	        <url>http://3.90.243.96:8081/repository/maven-snapshots/</url>
+	    </repository>
+	    <repository>
+	        <id>nexus-releases</id>
+	        <url>http://3.90.243.96:8081/repository/maven-releases/</url>
+	    </repository>
+	</repositories>
+
 </project>
